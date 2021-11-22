@@ -11,6 +11,7 @@ import {token} from './tokenad';
 export class AppComponent {
   ngOnInit(): void {
     console.warn('kashish')
+    console.warn('kashish')
   }
   @ViewChild(PowerBIReportEmbedComponent) reportObj!: PowerBIReportEmbedComponent;
   phasedEmbeddingFlag = false;
