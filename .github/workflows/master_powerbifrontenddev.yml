@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'PowerBIFrontendDev'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B2AAEA22CC204E2A829BE41965DE0142 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51E9F5418850401EB8CE7A3AA847445A }}
           package: .
