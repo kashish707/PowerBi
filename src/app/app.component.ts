@@ -9,10 +9,6 @@ import {token} from './tokenad';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  ngOnInit(): void {
-    console.warn('kashish')
-    console.warn('kashish')
-  }
   @ViewChild(PowerBIReportEmbedComponent) reportObj!: PowerBIReportEmbedComponent;
   phasedEmbeddingFlag = false;
 
@@ -23,7 +19,6 @@ export class AppComponent {
     id: '169bfeea-b150-4e2b-a3c7-c42f85a8af43',
     accessToken: token,
     settings: undefined,
-    
   };
 
 }
